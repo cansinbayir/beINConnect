@@ -1,0 +1,24 @@
+.banner {
+  width: 100%;
+
+    @media screen and (max-width: 768px) {  
+      height: 250px;
+    }
+           
+    @media screen and (min-width: 768px) {  
+       height: 350px;
+    }
+             
+  .swiper-pagination-bullet {
+    background-color: #fff; /* Pasif bullet'ların arka plan rengi */
+  }
+             
+ .swiper-slide {
+    img {
+      width: 100%;
+      object-fit:fill
+    }
+ }
+
+ }
+             
